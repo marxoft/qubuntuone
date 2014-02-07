@@ -1,0 +1,16 @@
+Source: libqubuntuone
+Section: libs
+Priority: optional
+Maintainer: Stuart Howarth <showarth@marxoft.co.uk>
+Homepage: http://marxoft.co.uk/libqubuntuone
+Build-Depends: debhelper (>= 5), libqt4-dev
+
+Package: libqubuntuone
+Architecture: armel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A Qt/C++ library to access the Ubuntu One authentication, file storage and music APIs.
+
+Package: libqubuntuone-dev
+Architecture: armel
+Depends: libqubuntuone
+Description: Header files for the qubuntuone library

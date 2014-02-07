@@ -1,0 +1,15 @@
+libqubuntuone
+===================
+
+libqubuntuone is a Qt library providing access to the Ubuntu One files and music streaming APIs.
+
+building
+========
+# Run QMake to generate makefiles
+ $ qmake INSTALL_PREFIX=/usr/local 
+
+# Compile
+ $ make
+
+# Install
+ $ make install

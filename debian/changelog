@@ -1,0 +1,25 @@
+libqubuntuone (0.0.4) unstable; urgency=low
+
+  * Use class name for enum when used as a signal paramater.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Fri,  07 Feb 2014 14:03:26 +0100
+
+libqubuntuone (0.0.3) unstable; urgency=low
+
+  * Added StorageQuota class to Files API.
+  * FileTransfer now uses TransferUI for MeeGo-Harmattan.
+  * Code re-factoring.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Wed,  05 Feb 2014 19:26:14 +0100
+
+libqubuntuone (0.0.2) unstable; urgency=low
+
+  * Fixed some encoding issues in the Files API.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Tue,  28 Jan 2014 15:51:34 +0100
+
+libqubuntuone (0.0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Thu,  02 Jan 2014 21:59:48 +0100
